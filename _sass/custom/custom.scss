@@ -1,0 +1,8 @@
+// overrides
+
+/* prevent navbar witdth from expanding */
+.side-bar {
+  @include mq(lg) {
+    width: $nav-width-md;
+  }
+}
